@@ -29,9 +29,9 @@ do
         arr[i]=${result[$i]}
         echo -n "${arr[i]} "
 done
+
 printf "\n"
 echo "Results in Descending Order "
-
 n=${#result[@]}
 
 for (( i=1;i<=n-1;i++ ))
@@ -46,7 +46,12 @@ do
         fi
         done
 done
+
 for ((i=1;i<=n;i++))
 do
         echo -n "${arr[$i]} "
 done
+
+
+
+printf "\n"
