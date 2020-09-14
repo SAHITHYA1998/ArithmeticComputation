@@ -6,5 +6,6 @@ read -p "Enter second input " b
 read -p "Enter third input " c
 
 
-Comput2=`awk 'BEGIN{printf("%.2f",'$a' * '$b' + '$c')}'`
-echo  $Comput2
+Comput3=`awk 'BEGIN{printf("%.2f",'$a' + '$b' / '$c')}'`
+echo  $Comput3
+
